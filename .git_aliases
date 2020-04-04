@@ -1,0 +1,4 @@
+alias gitpush='git push -u origin master'
+alias gitcommitm='git commit -m"'
+alias gitlog='git log --pretty --oneline'
+alias gitadd='git add -u'
