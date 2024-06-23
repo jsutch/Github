@@ -27,4 +27,4 @@ git add *
 /usr/bin/git commit -m   "${CURRENTDIR} update $(date '+%Y%m%d%H%M%S')"
 #
 git remote add origin git@github.com:${USER:-${GITHUBUSER}}/${REPONAME:-${CURRENTDIR}}.git
-git push -u origin master
+git push -u origin main
